@@ -30,5 +30,5 @@ stages:
     - task: Docker@2
       inputs:
         containerRegistry: 'new'
-        repository: anika/new
+        repository: $tag
         command: 'push'
