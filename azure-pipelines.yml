@@ -29,7 +29,7 @@ stages:
           $(tag) 
     - task: Docker@2
       inputs:
-       containerRegistry: 'new'
+       containerRegistry: 'test'
        repository: $(imageRepository)
        command: 'push'
       
